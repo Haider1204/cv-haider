@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Haider Rodriguez — Ingeniero Biomédico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <!-- NOISE TEXTURE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="profile-photo">
+        <div class="photo-placeholder">
+          <span>HR</span>
+        </div>
+      </div>
+
+      <div class="name-block">
+        <h1 class="name">Haider<br>Rodriguez</h1>
+        <p class="role">Ingeniero Biomédico<br>& Desarrollador de Software</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#sobre-mi" class="nav-link">— Sobre mí</a>
+        <a href="#educacion" class="nav-link">— Educación</a>
+        <a href="#experiencia" class="nav-link">— Experiencia</a>
+        <a href="#habilidades" class="nav-link">— Habilidades</a>
+        <a href="#reconocimientos" class="nav-link">— Reconocimientos</a>
+        <a href="#contacto" class="nav-link">— Contacto</a>
+      </nav>
+
+      <div class="sidebar-contact">
+        <p>Bogotá D.C, Colombia</p>
+        <p>haiderrp@hotmail.com</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero" id="sobre-mi">
+      <div class="hero-label">Perfil Profesional</div>
+      <h2 class="hero-title">Donde la ingeniería<br>biomédica encuentra<br><em>la tecnología.</em></h2>
+      <div class="hero-divider"></div>
+      <p class="hero-text">
+        Ingeniero Biomédico graduado con honores de la Escuela Colombiana de Ingeniería Julio Garavito y la Universidad del Rosario. 
+        Combino conocimientos en biomecánica, visión por computadora y desarrollo de software para crear soluciones tecnológicas 
+        aplicadas a la salud y el rendimiento deportivo. Actualmente cursando Maestría en Informática, con enfoque en sistemas 
+        inteligentes y computación avanzada.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">43%</span>
+          <span class="stat-label">Reducción en tiempos de análisis cinemático</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">20%</span>
+          <span class="stat-label">Reducción en tiempo de mantenimiento no operativo</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">B2</span>
+          <span class="stat-label">Nivel de inglés certificado</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="section" id="educacion">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h3 class="section-title">Educación</h3>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2025 – 2027</span>
+            <span class="timeline-loc">Bogotá D.C, CO</span>
+          </div>
+          <div class="timeline-content">
+            <h4>Maestría en Informática</h4>
+            <p class="timeline-institution">Escuela Colombiana de Ingeniería Julio Garavito</p>
+            <p>Enfoque en sistemas inteligentes, computación avanzada y soluciones tecnológicas aplicadas. Graduación esperada diciembre 2027.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">– 2025</span>
+            <span class="timeline-loc">Bogotá D.C, CO</span>
+          </div>
+          <div class="timeline-content">
+            <h4>Ingeniería Biomédica <span class="badge">Grado con Honores</span></h4>
+            <p class="timeline-institution">ECI Julio Garavito & Universidad del Rosario</p>
+            <p>Programa conjunto de doble titulación. GPA: 43.4. Graduado con honores por resultados sobresalientes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="section" id="experiencia">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h3 class="section-title">Experiencia</h3>
+      </div>
+
+      <div class="experience-grid">
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <h4 class="exp-title">Desarrollador de Software Biomédico</h4>
+              <p class="exp-company">Ortomec S.A</p>
+            </div>
+            <span class="exp-date">Ene 2025 – Jul 2025</span>
+          </div>
+          <ul class="exp-list">
+            <li>Optimicé algoritmos de procesamiento de video con <strong>OpenCV</strong>, reduciendo tiempos de análisis cinemático en un <strong>43%</strong>.</li>
+            <li>Desarrollé un sistema de análisis de movimiento en tiempo real usando <strong>OpenPose y C++</strong> aplicado al rendimiento deportivo y prevención de lesiones.</li>
+            <li>Diseñé una interfaz gráfica interactiva con <strong>Qt Framework</strong> para visualización de datos biomecánicos.</li>
+            <li>Integré tecnologías de visión por computadora para captura y análisis de patrones de movimiento humano.</li>
+          </ul>
+          <div class="exp-tags">
+            <span>OpenCV</span><span>C++</span><span>OpenPose</span><span>Qt</span>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <h4 class="exp-title">Practicante de Ingeniería Biomédica</h4>
+              <p class="exp-company">Clínica Universidad de la Sabana</p>
+            </div>
+            <span class="exp-date">Ago 2024 – Ene 2025</span>
+          </div>
+          <ul class="exp-list">
+            <li>Reduje el tiempo de mantenimiento no operativo en un <strong>20%</strong> mediante flujos de trabajo automatizados.</li>
+            <li>Diseñé e implementé un sistema automatizado de gestión de documentos con <strong>Power Automate y Microsoft 365</strong>.</li>
+            <li>Gestioné mantenimiento preventivo, predictivo y correctivo de equipos biomédicos en hospital nivel III.</li>
+            <li>Desarrollé solución portátil para registro y seguimiento de actividades de mantenimiento con trazabilidad completa.</li>
+          </ul>
+          <div class="exp-tags">
+            <span>Power Automate</span><span>Microsoft 365</span><span>Power Platform</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section" id="habilidades">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h3 class="section-title">Habilidades</h3>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h5 class="skill-group-title">Programación & Desarrollo</h5>
+          <div class="skill-chips">
+            <span>C++</span><span>Python</span><span>Qt Framework</span><span>OpenPose</span><span>OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h5 class="skill-group-title">Ingeniería Biomédica</h5>
+          <div class="skill-chips">
+            <span>Análisis Biomecánico</span><span>Análisis Cinemático</span><span>Gestión de Tecnología Hospitalaria</span><span>Sistemas de Análisis de Movimiento</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h5 class="skill-group-title">Automatización & Herramientas</h5>
+          <div class="skill-chips">
+            <span>Microsoft Power Platform</span><span>Power Automate</span><span>Microsoft 365</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h5 class="skill-group-title">Competencias</h5>
+          <div class="skill-chips">
+            <span>Liderazgo de Proyectos</span><span>Trabajo Multidisciplinario</span><span>Optimización de Flujos</span><span>Español Nativo</span><span>Inglés B2</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECONOCIMIENTOS -->
+    <section class="section" id="reconocimientos">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h3 class="section-title">Reconocimientos</h3>
+      </div>
+
+      <div class="awards-grid">
+        <div class="award-card">
+          <div class="award-icon">★</div>
+          <div>
+            <h4>Beca de Excelencia para Posgrado</h4>
+            <p>Otorgada por resultados sobresalientes en el pregrado. Grado con honores.</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <div class="award-icon">★</div>
+          <div>
+            <h4>Beca Generación E — Pregrado</h4>
+            <p>Otorgada por resultados sobresalientes en la prueba nacional de rendimiento académico del ICFES.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h3 class="section-title">Contacto</h3>
+      </div>
+
+      <div class="contact-block">
+        <p class="contact-intro">¿Tienes un proyecto interesante? Hablemos.</p>
+        <div class="contact-links">
+          <a href="mailto:haiderrp@hotmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            haiderrp@hotmail.com
+          </a>
+          <div class="contact-link">
+            <span class="contact-icon">📍</span>
+            Bogotá D.C, Colombia
+          </div>
+          <div class="contact-link">
+            <span class="contact-icon">📞</span>
+            +57 312 368 9819
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Haider Estiven Rodriguez Pinto — Ingeniero Biomédico</p>
+    </footer>
+
+  </main>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
